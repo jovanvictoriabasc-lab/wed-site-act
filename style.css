@@ -1,0 +1,68 @@
+:root {
+    --blue: #6aa1f5;
+    --dark-blue: #042e6d;
+    --light-bg: #fafcfe;
+}
+
+body {
+    background: var(--light-bg);
+    font-family: 'Segoe UI', sans-serif;
+    color: #1a2a4a;
+}
+
+.navbar {
+    background: var(--dark-blue) !important;
+}
+
+.card {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 5px 20px rgba(4, 46, 109, 0.08);
+}
+
+.btn-primary {
+    background: var(--blue);
+    border-color: var(--blue);
+    border-radius: 10px;
+}
+
+.btn-primary:hover {
+    background: var(--dark-blue);
+    border-color: var(--dark-blue);
+}
+
+.sidebar {
+    background: #fbfbfbcb;
+    min-height: 100vh;
+    border-right: 1px solid #e2e8f0;
+}
+
+.sidebar a {
+    color: #334155;
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+    background: #eef3ff;
+    color: var(--blue);
+    border-left: 4px solid var(--blue);
+}
+
+.badge {
+    font-weight: 500;
+}
+
+.table thead {
+    background: var(--dark-blue);
+    color: white;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--blue);
+    box-shadow: 0 0 0 0.2rem rgba(63, 108, 177, 0.15);
+}
